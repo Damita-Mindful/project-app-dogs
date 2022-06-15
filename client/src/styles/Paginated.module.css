@@ -1,0 +1,43 @@
+.paged {
+    text-decoration: none;
+  }
+  
+  .listContainer {
+    display: inline-flex;
+    flex-direction: row;
+  }
+  
+  .number {
+    color: #fff;
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .link {
+    color: #fff;
+    display:inline-flex;
+    padding: 12px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(209, 111, 5, 0.650);
+    border-radius: 50%;
+    list-style:none;
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+  }    
+  
+  .link:hover {
+    background-color: #fff;
+    border: none;
+    color: #0b0332;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+  } 

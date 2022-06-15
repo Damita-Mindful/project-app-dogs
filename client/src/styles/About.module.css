@@ -1,0 +1,106 @@
+.mainConteinerAbout{
+    background-image: url('../img/1122487.jpg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100%;
+    overflow: hidden;
+    scroll-behavior: hidden;
+}
+
+.title{
+    color: rgb(54, 48, 48);
+    flex-direction: column;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.imageDiv{
+    margin-left: 50px ;
+    margin-top: 40px;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.imageDiv > img{
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px solid white;
+    height: 500%;
+    width: 500%;
+}
+
+.head{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.texto{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.text{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 400px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: right;  
+}
+
+.tech {
+    margin-left: 150px;
+    margin-right: 350px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 120%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.linksItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.links > span > a {
+    text-align: center;
+    margin: 12px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.links > span > a:first-child {
+    margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

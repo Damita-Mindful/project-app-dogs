@@ -1,0 +1,96 @@
+.bkg{
+    background-image: url('../img/1123259.jpg');
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100%;
+    overflow: hidden;
+    scroll-behavior: hidden;
+} 
+
+.container{
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 120px;
+    margin-left: 25%;
+    width: 700px;
+    height: 730px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #fdf6fc73;
+    backdrop-filter: 1px;
+    border: #949193 1px solid;     
+    text-align: center;
+} 
+
+.title{
+    color: #fff;
+    flex-direction: column;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    text-shadow: 6px 6px 4px rgba(44, 11, 34, 0.473); 
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+} 
+
+.text {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: 'none';
+    color: #242426;
+    font-weight: bolder; 
+    margin-top: 2%;
+    margin-bottom: 1px;
+} 
+
+.back{
+    margin-top: 15px;
+    padding-top: 2%;
+} 
+
+.backBtn{
+    border: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: rgba(209, 111, 5, 0.514);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.5); 
+    text-align:center;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.backBtn:hover{ 
+    background-color: #fff;
+    border: none;
+    color: #030022;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
+.image {
+    border-radius: 5%;
+    justify-content: center;
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px
+} 
+
+.loading{
+    align-items: center;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 180%;
+    font-weight: bolder;
+}
